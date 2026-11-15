@@ -1,0 +1,100 @@
+{
+  "format": "ordered tar.zst volumes; concatenate each set; data only",
+  "max_part_bytes": 10485760,
+  "sets": [
+    {
+      "name": "l512-paper-519min",
+      "files": 142,
+      "uncompressed_bytes": 442828478,
+      "file_manifest": "l512-paper-519min.files.json",
+      "file_manifest_sha256": "18527b0ab3271ce70aa537376a463eaa2557256aef2d16dd72c761bb9ad6536d",
+      "parts": [
+        {
+          "path": "l512-paper-519min.tar.zst.part000",
+          "bytes": 10485760,
+          "sha256": "f110d9ab42662dac1de2c460159552828b1167ad953ebe5b7222d39bdad9c8ce"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part001",
+          "bytes": 10485760,
+          "sha256": "2c4186ef2ec1ac2125900fb137742ba86612835b302aec1f85339095259f37ad"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part002",
+          "bytes": 10485760,
+          "sha256": "b0578cfbc7f2745cbb6d372bbb507c3342300fccc5b6adcb122a45c0d72d6772"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part003",
+          "bytes": 10485760,
+          "sha256": "d6b393be8f06da91552194a9a7305c2b2d1a414eb1aa546e1c49bf33dff43a53"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part004",
+          "bytes": 10485760,
+          "sha256": "06804b7a6c06e5179518665c9d64527760754023a3ac680cf58eadcec2ae00df"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part005",
+          "bytes": 10485760,
+          "sha256": "1f6f49f6a8a9116d1603d40ed97cd6e1d8143344d473a1d9cf84634f12e71c08"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part006",
+          "bytes": 10485760,
+          "sha256": "61236ebfd697a9696eed45372e0f017c65e658483b26cb344a17cfa32e0771df"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part007",
+          "bytes": 10485760,
+          "sha256": "8c02c6eaebca14d6db675a16516f7c577286446daa6ef00d9633957154173d27"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part008",
+          "bytes": 10485760,
+          "sha256": "4951d8bc213cf245172ab19d612671314e2a87b61f52755ddec4623cd83e9513"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part009",
+          "bytes": 10485760,
+          "sha256": "c313cc2890b96ccd84e3ad9ace862cfbfd0644fe0ecc787aabbb2f074f19bdd8"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part010",
+          "bytes": 10485760,
+          "sha256": "d038cf8fe0b0515afb7292915300060ca2965810ecf30e0f2bdbd90c015ba673"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part011",
+          "bytes": 10485760,
+          "sha256": "ebbccfeba4b64a36fdabbc4ea635d777817429391e52d998afc77b92e1b89d4e"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part012",
+          "bytes": 10485760,
+          "sha256": "a0f55fabade5c62763033918bd6a4654b8a40e94a26b714d5ab304cac5e493f0"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part013",
+          "bytes": 10485760,
+          "sha256": "cbf7e4bc1f107cadd853cd5b9abea1915d35a632b2a994882118971e5d2ee23a"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part014",
+          "bytes": 10485760,
+          "sha256": "97298f542fae5e1b4d18dcd0efd44b9dd9f489ecd053c2eebdd2338d0135d627"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part015",
+          "bytes": 10485760,
+          "sha256": "21137e93209fca79e385f41854f62db41237462a59a96e3615a4dec386d79b7a"
+        },
+        {
+          "path": "l512-paper-519min.tar.zst.part016",
+          "bytes": 5670343,
+          "sha256": "9f57bbce35e1f84c94a91f3c2fc31d0e000f767507797a85c9b6b2469be35d69"
+        }
+      ]
+    }
+  ]
+}
