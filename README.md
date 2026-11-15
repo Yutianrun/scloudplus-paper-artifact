@@ -58,7 +58,7 @@ python3 tools/verify_results.py --fresh-kem
 
 ## 源码范围和重新运行
 
-`source/l256`、`source/l384`、`source/l512` 保留各自历史目录结构、采集器、判决代码、离线恢复、格纠错、公钥验证及 Scloud+ 实现依赖；源文件未经改写。各目录下的 `experiments/.../PROTOCOL.md` 和原始 runner 记录对应协议。L256 复用了既有公开探针夹具，所以该夹具作为依赖一并保留；它不构成额外计入的实验结果。
+`source/l256`、`source/l384`、`source/l512` 保留各自历史目录结构、采集器、判决代码、离线恢复、格纠错、公钥验证及 Scloud+ 实现依赖；源文件未经改写。各目录下的 `experiments/.../PROTOCOL.md` 和原始 runner 记录对应协议。L256 复用了既有公开探针夹具。其公钥、公开矩阵和逐坐标预测记录已保存，但十份原 `probes.cache` 不在现有归档或保留的 Git 历史中。原缓存的 SHA256 已单独保存在 [l256-missing-probe-caches.json](provenance/l256-missing-probe-caches.json)。重新在线采集需要重新搜索探针，不能声称重建了原缓存；读取原始计时、复核记录及验证已恢复密钥不需要这些缓存。
 
 原始 runner 含有历史机器路径、旧实验目录引用和核绑定（1/2/4/5/6/7）。完整重跑前需在独立工作目录中恢复所需夹具并适配路径和 CPU 核；不要直接在冻结目录运行会创建/覆盖文件的历史构建脚本。本次已验证原始采集器可编译，未重新执行数小时的在线攻击采集。
 

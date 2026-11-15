@@ -1,0 +1,62 @@
+[
+  {
+    "run": "group-01",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-01/probes.cache",
+    "sha256": "fc29158db80279f026edb85c071fc30258d3fb542c1549dfa995548d4f0faaea",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-02",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-02/probes.cache",
+    "sha256": "e2fc8be10b135215c0e5c839a5c5287fcbff582afa5655b0f60e29834ca13415",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-03",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-03/probes.cache",
+    "sha256": "15a2ddea4c75bb167121b420bb17e9292b437508329c744d856ad38e90131e82",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-04",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-04/probes.cache",
+    "sha256": "319a4b1099049a268fe3c2265c3e00211cd73c85ee090c74c1ecc6cf152b11a3",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-05",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-05/probes.cache",
+    "sha256": "ec7205f1937b5252a27b9f0d433610aef73c6034e0555e6f27cfe9dccda422f7",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-06",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-06/probes.cache",
+    "sha256": "57d0bb6c0092ca8cff4a0b1340f97ff2234604281a080c88a27c2715f80e2f44",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-07",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-07/probes.cache",
+    "sha256": "a611d99b018638da528815f7870f0d318e6e4ba605ce25f304c59e2ec7478fcb",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-08",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-08/probes.cache",
+    "sha256": "eccf7baaa8fd2c63f5b83cfd64924e6614f8371e0255761e4731f057cd514c67",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-09",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-09/probes.cache",
+    "sha256": "ae7ab9f27c5a3c96956509bf5fc1d0c008e5fb452e36f6d56dfa23709196fe2a",
+    "status": "original file not found in retained archives or Git history"
+  },
+  {
+    "run": "group-10",
+    "original_path": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-10/probes.cache",
+    "sha256": "0c06c733e24614eefeed03ebc41928cc4f51648d37df1dd1884d07db72339d57",
+    "status": "original file not found in retained archives or Git history"
+  }
+]
