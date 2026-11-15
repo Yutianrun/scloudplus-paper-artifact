@@ -1,0 +1,22 @@
+{
+  "source_commit": "bc2cb2df4ad757aa0f5023d7deff0a8bdfd048a2",
+  "source_path": "scripts/blaster-fixed",
+  "note": "Vendored dependency from the retained runtime repository; not presented as a historical binary build.",
+  "files": {
+    "LICENSE": "9b3f3505633de12a5469489d9e39f1460361d6a90a22bb9aea0e1fc03d5034d5",
+    "setup.py": "fd7aa6041cd61efb649bb9798714598c21f747dbd550978ba92b1f041af3ff67",
+    "pyproject.toml": "166f735c714b319bd4b4069205e0e3ba8d36c0405b3e344adddae3b6a9fb51d2",
+    "core/lattice_reduction.cpp": "8f3bec7b06e979651702e3b88056f2d0c3529d9ad9d946e189d4c3efbf0e8b88",
+    "core/blaster.pyx": "9b613272d69d0e85d5498eae618020880bde0b57a1d5139c2553f4dd06fd7374",
+    "core/decl.pxd": "28fe1f41f883e11ab407b9701f6aeb7b0434e9337f7ca955803464a984e2c2af",
+    "core/pruning_params.cpp": "4315745c5ff61e0bfb697bc74559b1efcc60e365bb2735633b10b099d806e422",
+    "core/enumeration.hpp": "5c6e56a140a7e3c36e490e615ec5c1c94c84db7813c46fbbf72d7bff913d39b0",
+    "core/enumeration.cpp": "81883855da574c3b863cd9e5a50592f7e7b744b1c068508bdad3d657f21b60fd",
+    "core/types.hpp": "c0705ce9fa7cc7cb31b2cc13822d7d1889260b58c8b364f17b5e13ed3158a732",
+    "core/eigen_matmul.cpp": "ce391a01222a959acf9572fa4c42ce3af25267047d3694a668ad03558e9581f8",
+    "src/blaster/blaster.py": "ece440a81bf5c9a2132b5f3f7c4e3594868164510b0a79f91a671c1927537979",
+    "src/blaster/__init__.py": "81d9333fb353d56dd7fcf837b4aeb62901b7a7b044eaca40086bb0d32c7d3d55",
+    "src/blaster/size_reduction.py": "7355d565e0dbafa353caa4cab8a4c393f7959737d1e6f69b114d9663a229dd29",
+    "src/blaster/stats.py": "94417d5ef9b0f198119ae2f85e1623fff082292c33810b1bf4bdd90c5460e121"
+  }
+}

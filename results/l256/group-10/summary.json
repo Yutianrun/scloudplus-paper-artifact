@@ -1,0 +1,96 @@
+{
+  "group": 10,
+  "seed": 119,
+  "fixture": "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-10",
+  "status": "complete",
+  "started_at_utc": "2026-10-30T03:27:03.904479+00:00",
+  "capture_pid": 1582407,
+  "capture_command": [
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/collector",
+    "119",
+    "1184",
+    "1000",
+    "3000",
+    "2000000",
+    "11",
+    "6",
+    "0"
+  ],
+  "capture_elapsed_seconds": 6390.182866720948,
+  "capture_process_seconds": 6394.004499353003,
+  "physical_capture_seconds": 6280.814192,
+  "timing_calls": 20386608,
+  "timing_costs": {
+    "warmup": 2400,
+    "calibration": 612000,
+    "target_and_paired_reference": 18938672,
+    "local_reference": 833536
+  },
+  "mean_samples_per_axis": 363.53409090909093,
+  "sample_quantiles": [
+    32.0,
+    272.0,
+    896.0,
+    1000.0,
+    1000.0,
+    1000.0
+  ],
+  "capped_axes": 1901,
+  "calibration_attempts": 102,
+  "collector_abstentions": 3116,
+  "unresolved_coefficients": 1708,
+  "reference_rejected_coefficients": 1666,
+  "both_unresolved_and_reference_rejected": 258,
+  "workers": [
+    {
+      "worker": 4,
+      "coefficients": 2170,
+      "timing_calls": 2682288,
+      "seconds": 3829.788
+    },
+    {
+      "worker": 2,
+      "coefficients": 2171,
+      "timing_calls": 2943424,
+      "seconds": 4201.808
+    },
+    {
+      "worker": 5,
+      "coefficients": 2170,
+      "timing_calls": 3396224,
+      "seconds": 4850.235
+    },
+    {
+      "worker": 1,
+      "coefficients": 2171,
+      "timing_calls": 3407920,
+      "seconds": 4868.278
+    },
+    {
+      "worker": 3,
+      "coefficients": 2171,
+      "timing_calls": 3561264,
+      "seconds": 5084.352
+    },
+    {
+      "worker": 0,
+      "coefficients": 2171,
+      "timing_calls": 4395488,
+      "seconds": 6280.814
+    }
+  ],
+  "public_accepted_columns": 11,
+  "forced_guesses": 3116,
+  "trusted_guesses": 9908,
+  "forced_guess_errors": 0,
+  "trusted_guess_errors": 0,
+  "initial_wrong_non_erased": 0,
+  "corrected_wrong_non_erased": 0,
+  "accepted_truth_mismatches": 0,
+  "correction_seconds": 3.01664462313056,
+  "postprocess_process_seconds": 25.77666856488213,
+  "kem_verified": true,
+  "input_hashes_verified": true,
+  "finished_at_utc": "2026-10-30T05:14:03.990745+00:00",
+  "total_seconds": 6420.168313707225
+}

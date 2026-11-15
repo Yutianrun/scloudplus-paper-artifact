@@ -1,0 +1,23 @@
+[
+  {
+    "level": 256,
+    "source_commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+    "source_hashes_verified": 150,
+    "collector_build": "passed",
+    "public_verifier_build": "passed"
+  },
+  {
+    "level": 384,
+    "source_commit": "1a44a19078391c6e15495b4654fa505fa8136c2a",
+    "source_hashes_verified": 158,
+    "collector_build": "passed",
+    "public_verifier_build": "passed"
+  },
+  {
+    "level": 512,
+    "source_commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+    "source_hashes_verified": 144,
+    "collector_build": "passed",
+    "public_verifier_build": "passed"
+  }
+]

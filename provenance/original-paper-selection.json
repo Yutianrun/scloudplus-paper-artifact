@@ -1,0 +1,47 @@
+{
+  "status": "paper_final_provisional",
+  "abstract_frozen": true,
+  "abstract_claim": "Our attacks recover full Scloud+ secret keys at all three vulnerable parameter sets: 10/10 independent keys at L256 and L384, averaging 105.7 and 162.1 minutes, respectively, and one L512 key in 519.5 minutes.",
+  "selection_policy": "Use these selected experiments for the manuscript; subsequent experiments do not replace the selection automatically.",
+  "levels": {
+    "256": {
+      "keys": 10,
+      "successes": 10,
+      "alpha": 0.001,
+      "mean_online_minutes_rounded": 105.7,
+      "archive_directory": "experiments/256",
+      "file_manifest": "experiments/256/sprt-256-ten-20261029.files.json",
+      "file_manifest_sha256": "f0e3677c2bec24fb7cb432b96c39c9236203e5e9c0bfdd59f7f857613bba3147"
+    },
+    "384": {
+      "keys": 10,
+      "successes": 10,
+      "alpha": 0.001,
+      "mean_online_minutes_rounded": 162.1,
+      "archive_directory": "experiments/384",
+      "file_manifest": "experiments/384/sprt-template-384-distinct10-20261102.files.json",
+      "file_manifest_sha256": "72b09232b2487e45b1d2b8a44d2efc7ab464267f2ea70f37f2b7f8a8662b16ec"
+    },
+    "512": {
+      "keys": 1,
+      "successes": 1,
+      "seed": 1,
+      "alpha": 0.01,
+      "online_minutes_rounded": 519.5,
+      "physical_capture_seconds": 31170.90295,
+      "timing_calls": 27827152,
+      "source_commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+      "restored_directory": "experiments/512-paper-519min",
+      "summary": "experiments/512-paper-519min/runs/512/summary.json",
+      "verification": "experiments/512-paper-519min/runs/512/recovery/verification.json",
+      "restoration_manifest": "experiments/512-paper-519min/restoration-manifest.json",
+      "restoration_manifest_sha256": "6130f302b7a957c398fb5136e1d9af1d1c8eff1215fad283d6b0fe555f2027b0"
+    }
+  },
+  "other_l512_experiments": {
+    "directory": "experiments/512",
+    "seed": 121,
+    "alpha": 0.001,
+    "selected_for_paper": false
+  }
+}

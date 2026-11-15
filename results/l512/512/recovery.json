@@ -1,0 +1,299 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "level": 512,
+  "seed": 1,
+  "vote3_used": false,
+  "extra_measurements": 0,
+  "source": "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture",
+  "confidence": "best minus runner-up summed mixture log evidence; forced decisions first",
+  "previous_solutions_used": false,
+  "truth_used_for_selection": false,
+  "workers": 3,
+  "coefficients": 38400,
+  "policy": [
+    [
+      60,
+      80,
+      1,
+      25
+    ],
+    [
+      120,
+      128,
+      1,
+      25
+    ],
+    [
+      180,
+      140,
+      2,
+      25
+    ],
+    [
+      236,
+      160,
+      2,
+      25
+    ],
+    [
+      360,
+      200,
+      2,
+      45
+    ],
+    [
+      640,
+      256,
+      2,
+      45
+    ]
+  ],
+  "inputs_sha256": {
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/capture.log": "37b0c1ba4b81553f8c555637a47c62a6a202e99a49014f465705c9acf60404f2",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sprt_soft_decision.py": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sequential_oracle.py": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/postprocess.py": "1d19cf4037f4b400be8c5cdf377429a72b5c666b272d5985881690b102a88267",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/fixtures/512/probes.cache": "b358bf7207e2002a9c01f6948ce02f68eed75326ced040e9d9b78758eb7285e3",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/fixtures/512/public.pk": "1625cabea9c392469f277cd580c8052b2310246a6c09b11da4cdc9521316515f",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/fixtures/512/public.npz": "f3be12639000506b67f4e5ff4ab10181047c4cf5bb8f06832eb6805b23e7d933",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/evaluate_confidence.py": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/public_embedding_cpu.py": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sparse_correction_lattice.py": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/postprocess_recover.py": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/verify_public_recovery.py": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/fixtures/512/public-recovery": "607b1c22a3618ad63030401d354fd6b699cb59cc765abaca984e04bb0e425f2c",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/public.pk": "1625cabea9c392469f277cd580c8052b2310246a6c09b11da4cdc9521316515f",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/public.npz": "f3be12639000506b67f4e5ff4ab10181047c4cf5bb8f06832eb6805b23e7d933",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-0.csv": "19473db772ef2e71d6f5a2976bb5d169171c91692fcb31633040ab1699a69992",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-1.csv": "dc205f0bd01d012f3604f45fe51bcb170180042d9eb9b9665b89d5b2f914a2c0",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-2.csv": "7788370b1928bb71f0e194f612a229ae08cf17b868dcc6e45c854c2267cac7f6",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-3.csv": "551729f15bf19ca6dbf015661d5692a3637a97819fe0b10498fd9d56f6cc3059",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-4.csv": "f381d92b8e2b66f44b3627af0757b4c256d658f300d90ea9db461753f9e04ddc",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/runs/512/capture/raw-5.csv": "7aba064cbe841b9777509b9408fd9aa3f0f8cc667a146f8673bf6ec923619ebc"
+  },
+  "total_seconds": 42.469612079206854,
+  "forced_guesses": 970,
+  "trusted_guesses": 37430,
+  "soft_decision_seconds": 35.039587463252246,
+  "columns": [
+    {
+      "column": 0,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 1,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 2,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 3,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 4,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 5,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 6,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 7,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 8,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 9,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 10,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 11,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 12,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 13,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 14,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 15,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    }
+  ],
+  "correction_seconds": 5.099488731939346,
+  "public_accepted_columns": 16,
+  "forced_guess_errors": 0,
+  "trusted_guess_errors": 0,
+  "initial_wrong_non_erased": 0,
+  "corrected_wrong_non_erased": 0,
+  "completed_erasures": 0,
+  "accepted_truth_mismatches": 0,
+  "all_public_checks_precede_truth_audit": true,
+  "input_hashes_verified": true
+}

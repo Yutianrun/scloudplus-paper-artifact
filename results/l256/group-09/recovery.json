@@ -1,0 +1,234 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "level": 256,
+  "seed": 117,
+  "vote3_used": false,
+  "extra_measurements": 0,
+  "source": "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture",
+  "confidence": "best minus runner-up summed mixture log evidence; forced decisions first",
+  "previous_solutions_used": false,
+  "truth_used_for_selection": false,
+  "workers": 3,
+  "coefficients": 13024,
+  "policy": [
+    [
+      60,
+      80,
+      1,
+      25
+    ],
+    [
+      120,
+      128,
+      1,
+      25
+    ],
+    [
+      180,
+      140,
+      2,
+      25
+    ],
+    [
+      236,
+      160,
+      2,
+      25
+    ],
+    [
+      360,
+      200,
+      2,
+      45
+    ],
+    [
+      640,
+      256,
+      2,
+      45
+    ]
+  ],
+  "inputs_sha256": {
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/capture.log": "51e99670c8a447e51411362c6facbc4da0ead497cbef3cbb999e69e43ca0467d",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sprt_soft_decision.py": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sequential_oracle.py": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/postprocess.py": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-09/probes.cache": "ae7ab9f27c5a3c96956509bf5fc1d0c008e5fb452e36f6d56dfa23709196fe2a",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-09/public.pk": "879c25448a6be12719f9f5b63f45cd11c02556fbefd0a1f8c8827ba23221e79d",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-09/public.npz": "02608f4f26df5729bc3da8f01930d412af2cdebde18e0154cf78f5074da6e959",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/evaluate_confidence.py": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/public_embedding_cpu.py": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/sparse_correction_lattice.py": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/postprocess_recover.py": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a",
+    "/home/yu/workspace/scloudplus-timing-sca/scripts/verify_public_recovery.py": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/freeze80-256-e2e10-20261027-113105/experiment-09/public-recovery": "3938a312fdfdad20dbbf74e6ecaf2b2205779c1f363f7f15787ad016744cb525",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/public.pk": "879c25448a6be12719f9f5b63f45cd11c02556fbefd0a1f8c8827ba23221e79d",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/public.npz": "02608f4f26df5729bc3da8f01930d412af2cdebde18e0154cf78f5074da6e959",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-0.csv": "6aeaffa1406e20413b55460b2fa59d3c78b47d92948922c6f3890fe8d63e96fa",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-1.csv": "4b8a322611051e7d4008fc33de1f6abb31712b32d13eb1b9a5944b39ce188843",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-2.csv": "74b1026211e6afe624e5b8c80f7c926f35e585e2d37f541be8788f583bbd23e4",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-3.csv": "c43620cededd4a00147525a5d992e039bdd76d3589d361297775007799cc055a",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-4.csv": "94e2e6bef6dad9fc8730bb59f51d387501ab95b0e6c1500d1f63bfb315542983",
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-256-ten-20261029/runs/group-09/capture/raw-5.csv": "ecf2305d12b4390274de4a799cc69fd1a487faa75c5fa0d2e3cdb3c21b5fe85f"
+  },
+  "total_seconds": 30.095174270216376,
+  "forced_guesses": 2451,
+  "trusted_guesses": 10573,
+  "soft_decision_seconds": 25.557625121902674,
+  "columns": [
+    {
+      "column": 0,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 1,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 2,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 3,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 4,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 5,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 6,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 7,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 8,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 9,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    },
+    {
+      "column": 10,
+      "public_valid": true,
+      "attempts": [
+        {
+          "window": 60,
+          "status": 0
+        }
+      ],
+      "initial_wrong_non_erased": 0,
+      "erasures": 0,
+      "accepted_truth_mismatches": 0
+    }
+  ],
+  "correction_seconds": 3.01666397228837,
+  "public_accepted_columns": 11,
+  "forced_guess_errors": 0,
+  "trusted_guess_errors": 0,
+  "initial_wrong_non_erased": 0,
+  "corrected_wrong_non_erased": 0,
+  "completed_erasures": 0,
+  "accepted_truth_mismatches": 0,
+  "all_public_checks_precede_truth_audit": true,
+  "input_hashes_verified": true
+}

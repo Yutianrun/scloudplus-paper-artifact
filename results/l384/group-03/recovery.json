@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "truth_used": false,
+  "columns": [
+    {
+      "column": 0,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 1,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 2,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 3,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 4,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 5,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 6,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 7,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 8,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 9,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 10,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 11,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 12,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 13,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 14,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    },
+    {
+      "column": 15,
+      "public_valid": true,
+      "method": "initial public check",
+      "attempts": []
+    }
+  ],
+  "policy": [
+    [
+      60,
+      80,
+      1,
+      25
+    ],
+    [
+      120,
+      128,
+      1,
+      25
+    ],
+    [
+      180,
+      140,
+      2,
+      25
+    ],
+    [
+      236,
+      160,
+      2,
+      25
+    ],
+    [
+      360,
+      200,
+      2,
+      45
+    ],
+    [
+      640,
+      256,
+      2,
+      45
+    ]
+  ],
+  "seconds": 115.5211195689626,
+  "columns_replayed": 16,
+  "trusted": 26620,
+  "forced": 4,
+  "replay_seconds": 115.24934989819303,
+  "public_accepted_columns": 16,
+  "truth_audit_deferred": true
+}

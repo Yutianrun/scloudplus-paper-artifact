@@ -1,0 +1,98 @@
+{
+  "level": 512,
+  "n": 2400,
+  "nbar": 16,
+  "seed": 1,
+  "fixture": "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/fixtures/512",
+  "audit_log": "/home/yu/workspace/scloudplus-timing-sca/experiments/vote3-512-full-20261024/512-run1.log",
+  "binary": "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/build/collector-512",
+  "status": "complete",
+  "started_at_utc": "2026-10-30T10:45:37.297018+00:00",
+  "capture_pid": 1591441,
+  "capture_command": [
+    "/home/yu/workspace/scloudplus-timing-sca/experiments/sprt-wide-alpha-0.01-20261030/build/collector-512",
+    "1",
+    "2400",
+    "1000",
+    "3000",
+    "2000000",
+    "16",
+    "6",
+    "0"
+  ],
+  "capture_elapsed_seconds": 31170.657988416962,
+  "capture_process_seconds": 31171.423357910942,
+  "physical_capture_seconds": 31170.90295,
+  "timing_calls": 27827152,
+  "timing_costs": {
+    "warmup": 2400,
+    "calibration": 1800000,
+    "target_and_paired_reference": 23567152,
+    "local_reference": 2457600
+  },
+  "coefficients": 38400,
+  "mean_samples_per_axis": 153.43197916666668,
+  "capped_axes": 5,
+  "collector_abstentions": 970,
+  "sample_quantiles": [
+    32.0,
+    128.0,
+    272.0,
+    336.0,
+    464.0,
+    1000.0
+  ],
+  "reference_rejected_coefficients": 966,
+  "workers": [
+    {
+      "worker": 3,
+      "coefficients": 6400,
+      "timing_calls": 3911760,
+      "seconds": 21883.152
+    },
+    {
+      "worker": 2,
+      "coefficients": 6400,
+      "timing_calls": 4044272,
+      "seconds": 22549.26
+    },
+    {
+      "worker": 4,
+      "coefficients": 6400,
+      "timing_calls": 4327472,
+      "seconds": 24172.003
+    },
+    {
+      "worker": 0,
+      "coefficients": 6400,
+      "timing_calls": 4867312,
+      "seconds": 27023.96
+    },
+    {
+      "worker": 5,
+      "coefficients": 6400,
+      "timing_calls": 5108928,
+      "seconds": 28433.77
+    },
+    {
+      "worker": 1,
+      "coefficients": 6400,
+      "timing_calls": 5567408,
+      "seconds": 31170.902
+    }
+  ],
+  "postprocess_process_seconds": 42.66638916125521,
+  "public_accepted_columns": 16,
+  "initial_wrong_non_erased": 0,
+  "corrected_wrong_non_erased": 0,
+  "accepted_truth_mismatches": 0,
+  "correction_seconds": 5.099488731939346,
+  "forced_guesses": 970,
+  "trusted_guesses": 37430,
+  "forced_guess_errors": 0,
+  "trusted_guess_errors": 0,
+  "kem_verified": true,
+  "input_hashes_verified": true,
+  "total_seconds": 31214.685228901915,
+  "finished_at_utc": "2026-10-30T19:25:51.931274+00:00"
+}

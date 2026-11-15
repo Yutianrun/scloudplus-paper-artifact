@@ -1,0 +1,581 @@
+{
+  "commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+  "files": {
+    "experiments/sprt-wide-alpha-0.01-20261030/PROTOCOL.md": {
+      "sha256": "60f6e5fb763d1d458422bd823d4af4cb530a6a694df73e3fb3897eec996f959e",
+      "bytes": 2344
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/build.py": {
+      "sha256": "9da0c853d446c6924d6de4ae3fd619c8ca3843597ca2afbad09fdf528acfab2a",
+      "bytes": 4386
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/collector.c": {
+      "sha256": "d541bc49774102f681ab0eea0bdc5a0fbdc17e84a029c42044a27fb009d32382",
+      "bytes": 48305
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/postprocess.py": {
+      "sha256": "1d19cf4037f4b400be8c5cdf377429a72b5c666b272d5985881690b102a88267",
+      "bytes": 10550
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/run.py": {
+      "sha256": "29f38a88d48dd1ff7b40db0418a1fdeec91aa974b7acb2de7f1a9b2313ea2827",
+      "bytes": 10939
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/sprt.h": {
+      "sha256": "f46a008411a21a7dc9f5461327f237ba648e77ff92f8cbb0298fe5fe863530e1",
+      "bytes": 1078
+    },
+    "experiments/sprt-wide-alpha-0.01-20261030/test_run.py": {
+      "sha256": "f272ec0a4176ce259ffdd8d4ef0e86ee42eb7d72c1d8ecb776857cc74798b180",
+      "bytes": 2003
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/README.md": {
+      "sha256": "d04c281c2b5e16f2af994b554549ef37cb4d4e672f7b9eb81ff03e8d842c4933",
+      "bytes": 541
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-128/kem/CMakeLists.txt": {
+      "sha256": "5271c4477b6b6aee6f5458fb76e83968bb735599d0698efa7c98c597aa15024d",
+      "bytes": 9159
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-128/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-128/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-128/kem/parameters.h": {
+      "sha256": "a05ca5e27be1f6940f14d990867ca1345b8ba8f8e952a83a8642481c89e686eb",
+      "bytes": 2729
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-192/kem/CMakeLists.txt": {
+      "sha256": "5271c4477b6b6aee6f5458fb76e83968bb735599d0698efa7c98c597aa15024d",
+      "bytes": 9159
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-192/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-192/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-192/kem/parameters.h": {
+      "sha256": "60a5fc2acb6f8755d9ccef6d225e7e1e6a518a638a801382c2df20095ccc3d34",
+      "bytes": 2732
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-256/kem/CMakeLists.txt": {
+      "sha256": "5271c4477b6b6aee6f5458fb76e83968bb735599d0698efa7c98c597aa15024d",
+      "bytes": 9159
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-256/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-256/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-256/kem/parameters.h": {
+      "sha256": "a6a678c6a7bf7eaca40523933f7a2822e34cedb909a1d21fdbf5bf602ee6c095",
+      "bytes": 2734
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-384/kem/CMakeLists.txt": {
+      "sha256": "5271c4477b6b6aee6f5458fb76e83968bb735599d0698efa7c98c597aa15024d",
+      "bytes": 9159
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-384/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-384/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-384/kem/parameters.h": {
+      "sha256": "144d8281d14e8aee204f91789bb23fe3d639aa7118810efe622b8dbd7bc8f278",
+      "bytes": 2734
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-512/kem/CMakeLists.txt": {
+      "sha256": "5271c4477b6b6aee6f5458fb76e83968bb735599d0698efa7c98c597aa15024d",
+      "bytes": 9159
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-512/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-512/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Optimized_Implementation/Scloudplus-512/kem/parameters.h": {
+      "sha256": "9f11b0cfa46ec21fe5a2d27b6998cd789caa4b6a179bf4efcc9be05b9d1cc5d3",
+      "bytes": 2744
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/README.md": {
+      "sha256": "7cf08d549722ad3d1127691998cc8c47eff96d61ab02a9b5af336baead57ab21",
+      "bytes": 2415
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/README.md": {
+      "sha256": "2cc62c11ea8cca96aab4a38dc2eda29dd209a3589664d3d608e350ca7e89d7f2",
+      "bytes": 396
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-128/kem/CMakeLists.txt": {
+      "sha256": "a50e11fb8d5e22244a567c72a836172d982319468dee811df03d527b04902108",
+      "bytes": 6390
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-128/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-128/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-128/kem/parameters.h": {
+      "sha256": "a05ca5e27be1f6940f14d990867ca1345b8ba8f8e952a83a8642481c89e686eb",
+      "bytes": 2729
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-192/kem/CMakeLists.txt": {
+      "sha256": "a50e11fb8d5e22244a567c72a836172d982319468dee811df03d527b04902108",
+      "bytes": 6390
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-192/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-192/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-192/kem/parameters.h": {
+      "sha256": "60a5fc2acb6f8755d9ccef6d225e7e1e6a518a638a801382c2df20095ccc3d34",
+      "bytes": 2732
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-256/kem/CMakeLists.txt": {
+      "sha256": "a50e11fb8d5e22244a567c72a836172d982319468dee811df03d527b04902108",
+      "bytes": 6390
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-256/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-256/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-256/kem/parameters.h": {
+      "sha256": "a6a678c6a7bf7eaca40523933f7a2822e34cedb909a1d21fdbf5bf602ee6c095",
+      "bytes": 2734
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-384/kem/CMakeLists.txt": {
+      "sha256": "a50e11fb8d5e22244a567c72a836172d982319468dee811df03d527b04902108",
+      "bytes": 6390
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-384/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-384/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-384/kem/parameters.h": {
+      "sha256": "144d8281d14e8aee204f91789bb23fe3d639aa7118810efe622b8dbd7bc8f278",
+      "bytes": 2734
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-512/kem/CMakeLists.txt": {
+      "sha256": "a50e11fb8d5e22244a567c72a836172d982319468dee811df03d527b04902108",
+      "bytes": 6390
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-512/kem/KEM_AlgorithmInstance.c": {
+      "sha256": "c95e78c4025d7526c6e2443a13735e157e6d0f3fa215b574b37b16ce49264dc6",
+      "bytes": 117
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-512/kem/KEM_AlgorithmInstance.h": {
+      "sha256": "d950a1821b5664408bd1fe46341aa7badd6f4dd72ba08df771751767c88f66f3",
+      "bytes": 116
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/Reference_Implementation/Scloudplus-512/kem/parameters.h": {
+      "sha256": "9f11b0cfa46ec21fe5a2d27b6998cd789caa4b6a179bf4efcc9be05b9d1cc5d3",
+      "bytes": 2744
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/KAT_KEM.c": {
+      "sha256": "7db44069411bdaa90f26990e4a64317854450b622b54826c7f10112cde7946eb",
+      "bytes": 9108
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/KEM_AlgorithmInstance.c": {
+      "sha256": "144b479735b4057c17e95f29f3e47e778ce7ab00b9ac5033aef94df3950fdbc4",
+      "bytes": 2588
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/KEM_AlgorithmInstance.h": {
+      "sha256": "9676623d7406df0ad9f39789688c270060bb36f79d8b8d6da06c03b04facf44e",
+      "bytes": 1582
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/api_parameters.h": {
+      "sha256": "8050a38dbfd4648dbd4ed6c0ff95b4f2c847e43d8468f5a0298bd52d5542e3f3",
+      "bytes": 1342
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/drng.c": {
+      "sha256": "b6225d708c56bf4602dbbb601ac5ed5297fdeab217759dbe985da8062fa00d55",
+      "bytes": 11890
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/drng.h": {
+      "sha256": "ea65f1063e351cf3e627d0956b5a53217d511b7d9e0aad81b3cb155fab85009d",
+      "bytes": 1671
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/api_pkc/kat_random.c": {
+      "sha256": "24097a890e307c691dc403316ba71b9155d785881ba4ee2aefd5171eeb8ed9c5",
+      "bytes": 332
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/README.md": {
+      "sha256": "0acc4a2519568929aa757ea6b67d45c8b26ea3e872baa3e94382b4c3f6eef040",
+      "bytes": 4529
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/aes_aesni.c": {
+      "sha256": "98c20a5e02745c36b51e7b0d80faed23e97354ccea81149699192630e586730d",
+      "bytes": 2864
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/avx2_util.h": {
+      "sha256": "e488a2ee1c461655674f5309dd6a63264a9966cfab7f9f9d1fa5ada0eb7b5963",
+      "bytes": 1267
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/fips202x4.c": {
+      "sha256": "752710ba9cb080b1071b0b659e5a182e57c092115267be9de12cd7e7a257aa1b",
+      "bytes": 4646
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/fips202x4.h": {
+      "sha256": "0da7a392ded8cb3a03cef300e1b9b60ca112ca1dc81812c6084ff8fe9fd1a99f",
+      "bytes": 886
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/hash_sm3_avx2.c": {
+      "sha256": "5d1f2c4d3a5513537d6bd737dfe3633f0d14fa19ecc7f6324abd6b3b5a1d8501",
+      "bytes": 10411
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/KeccakP-1600-times4-SIMD256.c": {
+      "sha256": "a29188e05c33050fd703657ca3f29f9db0478941e4d4864b4a3ca8dd8810810c",
+      "bytes": 40006
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/KeccakP-1600-times4-SnP.h": {
+      "sha256": "82b498f8e116b736cd77e1d1665300aa75606b354e02a90cb764c28936c7c0cb",
+      "bytes": 3114
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/KeccakP-1600-unrolling.macros": {
+      "sha256": "0bf1a7910e7cf01cdb68d2f8f0886cf1ec306ad341f567f7bf9979f812a856df",
+      "bytes": 6644
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/SIMD256-config.h": {
+      "sha256": "2118d0bf6aa447bae934789610f2b1b61c29ed28702d470a64dc6b0d522bdb28",
+      "bytes": 150
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/align.h": {
+      "sha256": "29890d2fae52e33b0118d011d676e1ad6547875905b0e7e72cef31e07806fc5a",
+      "bytes": 925
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/keccak4x/brg_endian.h": {
+      "sha256": "5fbc8e476a28827e0fb764db47b4e94947fd9138cd9f26fce114cbc1ee507aa9",
+      "bytes": 5546
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/matrix_avx2.c": {
+      "sha256": "a11f841be4672a898c37c27eadb904c6ec8e752c8c3a039a78df918b2358f74c",
+      "bytes": 26841
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/sample_avx2.c": {
+      "sha256": "fe0f5f39ec20c36cbca554f5c52bb19dcea1256eda96c8a1affdafc10d330699",
+      "bytes": 7697
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/avx2/sm3_avx2.c": {
+      "sha256": "a8b9de42815c5cce12ce0540e132f3ea1cba8c8abf18f8183f92a81dd9f2a1de",
+      "bytes": 31812
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/aes.h": {
+      "sha256": "9970175384282e99b9223f0337f283f17bca49d9aa32f629e3626d0b887b4bf7",
+      "bytes": 1509
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/encode.c": {
+      "sha256": "6ccdca60a3f6d2952da51971ddd59ba4cca8b90cab54ffa251661f77c040a34a",
+      "bytes": 15037
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/hash_aes_shake.c": {
+      "sha256": "8b5f4dd70cb84ba919a06a238cd8e2e8acb34a8d3b47011022d941da720b0a81",
+      "bytes": 24319
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/hash_sm3_portable.c": {
+      "sha256": "b5b5d255ba2265016ee7f647564658df9dec205c59c0b0e47d1e2b446815ae32",
+      "bytes": 9092
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/kem.c": {
+      "sha256": "d83572a3a0e59e2237fc98d6f2cd8510bb22146e17b86a367a8b224a2f03b756",
+      "bytes": 3920
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/modarith.h": {
+      "sha256": "8ee3b90b541a052cbdd9882178dc1e4aec0325f03edb276f355207981d0c47a8",
+      "bytes": 1044
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/pke.c": {
+      "sha256": "8968d3bd2054ba118b87ba4527637fc7a8a8f97e7d364a167746a55b2a301b0e",
+      "bytes": 5764
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/random.c": {
+      "sha256": "a40a80760e2438a795bc4478769aac13fe564d6d333e98552d7d8c21ce2c728f",
+      "bytes": 2662
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/sample.c": {
+      "sha256": "8b0471d6c1423e1f200e9058c00fd50fff9e962eca542af1658a09895ce623d6",
+      "bytes": 15814
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/sm3_backend.h": {
+      "sha256": "03a3f229b9a992c0840483b04787583dd369c9922483dfb5eb95d55fadb26ca6",
+      "bytes": 3052
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/common/util.c": {
+      "sha256": "25e83dc0bd69a3ef21cd22eab29f37b15e85ca3e92362359370f4ba257bdd284",
+      "bytes": 1196
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/encode.h": {
+      "sha256": "38b21152eb3b4f916e8e529a09572ac84019905dfbd12905a3d0e1b4a3f625fd",
+      "bytes": 1694
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/hash.h": {
+      "sha256": "860a16ba9794306afc8c64830b3587d0ede4f5be6bbd61e10044a65df3aed7a6",
+      "bytes": 5582
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/kem.h": {
+      "sha256": "ae5f3bd05fcc2123852ab4aac2b93f46932a9a4b69369de9248b8f55d76e42b3",
+      "bytes": 1734
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/matrix.h": {
+      "sha256": "8aa691f84a9f9f502b2cd402c3c1ca393e3dbd20296f4af57e5921b91f2d947d",
+      "bytes": 1840
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/pack.h": {
+      "sha256": "b55cf0f7c921738611e33474354b1a1cf17159ae94637716f2d5fb3e58eebf6e",
+      "bytes": 1728
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/pke.h": {
+      "sha256": "47ccd72a098b0a3fca9f7a70641b7faa86e3e3ac3ace9ad8dd28cb06f17ead75",
+      "bytes": 935
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/random.h": {
+      "sha256": "92ed4447261c2965d283ebc24a3fb09271fb2cb6ca6fa2762d558ef262213371",
+      "bytes": 500
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/sample.h": {
+      "sha256": "2b133135315c512076f65c2c24d01659a49fc176bf6a0d4c8f857af0993d8e54",
+      "bytes": 926
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/scloudplus_param_common.h": {
+      "sha256": "742ea81e4335efa7c99d0d0d4afc56edfe461e42ec8bbf306d5b0c01f966dfed",
+      "bytes": 2290
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/include/util.h": {
+      "sha256": "c65e700f1bebf4de75b19ecf9acf2fb2f3d19570d74229a309cb5480e5005d72",
+      "bytes": 1247
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/aes_armcrypto.c": {
+      "sha256": "c6133e7db08f5100dd3f9e5876bd9b00c49e5735ab8df70b23e5e471e4bb1c84",
+      "bytes": 8617
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/matrix_neon.c": {
+      "sha256": "8a8536dd7888d89efbc9fdca93674affb29163890609f1b2ee9afd242eda389c",
+      "bytes": 12587
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/matrix_neon_internal.h": {
+      "sha256": "468db373452a5080a394c7e91ef0fed02a124821212e4749482ea9a21565172c",
+      "bytes": 8715
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/pack_neon.c": {
+      "sha256": "3901eff05b577bc7d8e87ae2d77bc597818e0cf3b91ae6d2dd2438cb7af731a9",
+      "bytes": 11181
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/sample_neon.c": {
+      "sha256": "afd4c5f2f4b7a73486fffcfc4c244c9158eea0bb3606159fc14593026162c738",
+      "bytes": 6104
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/neon/sm3_aarch64.c": {
+      "sha256": "2797289fb0f9564edb0b4cde2a5384f131a10ff59d69217f9a6b390b04776445",
+      "bytes": 25777
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/ref/aes_reference.c": {
+      "sha256": "48d7b77b546d501fb5632b0767cf0561ee88e18bfbf03e2d62b9cbc9c50465f6",
+      "bytes": 4662
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/ref/matrix_reference.c": {
+      "sha256": "cade7a620f252c375d7f44b0f323c1d20fc171508a4c2e6c12a1b91bf95263c7",
+      "bytes": 6068
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/ref/pack_reference.c": {
+      "sha256": "04eaa47ff29a9a9d60d6fd95c82a1de1047b39e5efc2a9aefd504482f3dae0c6",
+      "bytes": 7876
+    },
+    "latest-download/Implementations and Test_Vectors/Implementations/_shared/scloudplus_core/ref/sm3_reference.c": {
+      "sha256": "86956ad3dbbb3962670c9f8dbf102380619dba93eeb3e2ec71fd03c80c6b93a1",
+      "bytes": 17224
+    },
+    "latest-download/Implementations and Test_Vectors/README.md": {
+      "sha256": "13fa31551cb7d7c44c1e419b060ac35fb47db8830e640e93f7a9e82c6b6ef87c",
+      "bytes": 3824
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/README.md": {
+      "sha256": "ad39546f515ed65c603b59492338518e344a270380e9adcede05a2cd73842aa2",
+      "bytes": 1426
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/benchmark/kem_benchmark.c": {
+      "sha256": "4dd8da8447766276a85220c14f29fde174f1f89fe4fff0c97f7845f7fd6de9c1",
+      "bytes": 9360
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/benchmark/measure_instance.sh": {
+      "sha256": "660f7c8dbf4c10e68bba8f2c9b048635a85c5521519e14bf9cec2aa06773f589",
+      "bytes": 6400
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/tests/test_kem_loop.c": {
+      "sha256": "70312946d582fd6c7b763011da45ec6009c0558ef2eeee5612c0a808eb30621f",
+      "bytes": 3325
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/tests/test_scloudplus.c": {
+      "sha256": "ce1bd6eb63416a94b0b1277e0068c964a192cda913f01afe758048038ba666ae",
+      "bytes": 9935
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/tests/test_tamper.c": {
+      "sha256": "03c0b5505eb09c254994e9c1e7dd1408be62c0e32a09a4b64118dd62e23a146c",
+      "bytes": 2793
+    },
+    "latest-download/Implementations and Test_Vectors/Self_Evaluation/tests/verify_kat_kem.c": {
+      "sha256": "9064772f98dfb1fb75b4304edbb598e104a1e40a5d33aed1d0ceb4f296c0a50b",
+      "bytes": 10119
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-128-AES-packed10.txt": {
+      "sha256": "da6fc68f0929bba1929a187a567a277ea826452a444309cfa3a36269124f16e3",
+      "bytes": 396630
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-128-SHAKE-packed10.txt": {
+      "sha256": "0bd1e37f96bde7b57e09e86a8c66cac8e07cdd2879970a3e2c4cb74122712d67",
+      "bytes": 396630
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-128-SM3-packed10.txt": {
+      "sha256": "16cbdd9944f0d0ef059578f719dd917c6ed74ad6f1c9c5e6db61fd7d0d5241ef",
+      "bytes": 396630
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-192-AES-packed10.txt": {
+      "sha256": "0c47ce26ea57610811691e0f060d6400599dd220e6be3745f27f16d22541f8a4",
+      "bytes": 762360
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-192-SHAKE-packed10.txt": {
+      "sha256": "67768d848e5104cd5dfc557abf83f765e2d969d774ff1f410130839266317a00",
+      "bytes": 762360
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-192-SM3-packed10.txt": {
+      "sha256": "3360b6e6f35c26a69f25bd0b64047799fb3d214f645ef62db9a35b8b945054d3",
+      "bytes": 762360
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-256-AES-packed10.txt": {
+      "sha256": "beca6e607c0921d9e6e5afc7c2eea8851d9c69ab3fb18db5511cc4827263636d",
+      "bytes": 1081080
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-256-SHAKE-packed10.txt": {
+      "sha256": "7540507481d6e937f80208462a41dd363954e62568b99d08f49e340f0e9765be",
+      "bytes": 1081080
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-256-SM3-packed10.txt": {
+      "sha256": "46e0947025f27f1be74c6981a8fd3f84c7666a7c31b377a653e9790e45005bb0",
+      "bytes": 1081080
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-384-AES-packed10.txt": {
+      "sha256": "38f8c6ce5a9d63e9ef962e658f3bb385d6c7476580ec22744c4dd9eabb6da06d",
+      "bytes": 2144180
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-384-SHAKE-packed10.txt": {
+      "sha256": "fd554151a022d0ce9072660345d4e35bceb45bb78bc3b456e98c9a02a0ec1200",
+      "bytes": 2144180
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-384-SM3-packed10.txt": {
+      "sha256": "5e5dbe22f97b8e2045de8417503e1e7773ed9eb73dd9049cf79e95af7869b57c",
+      "bytes": 2144180
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-512-AES-packed10.txt": {
+      "sha256": "7fcd0f1c5eb5d4a5028fa04da746ac105ad7b7e865675e65369bcdea072fa196",
+      "bytes": 3087860
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-512-SHAKE-packed10.txt": {
+      "sha256": "dd0444387c852c7fcb8c8e2aab5367c7c78aebd2b4287933ae6569d8fdcce83c",
+      "bytes": 3087860
+    },
+    "latest-download/Implementations and Test_Vectors/Test_Vectors/KAT_KEM_Scloudplus-512-SM3-packed10.txt": {
+      "sha256": "5cfc03103c5cf260de575947cd2175deda5902cab7127a83a628c72f24cc9aae",
+      "bytes": 3087860
+    },
+    "probe_validation.h": {
+      "sha256": "17473c27f21531e4a2d0d2bb1c6ab8f990903931e9b48776de5698fc160e692b",
+      "bytes": 5570
+    },
+    "recover_demo.c": {
+      "sha256": "c219c24f11f9a40ed9370511806a5d089030a014077e5232e705737d2fc6b72e",
+      "bytes": 18196
+    },
+    "recover_e2e_par.c": {
+      "sha256": "44a6dafde1c5b065120c4d0857a484a152dc1d002f70b9dcfc94a6ff1f16fcef",
+      "bytes": 46832
+    },
+    "scripts/build_public_tools.sh": {
+      "sha256": "c5b0ec0e5b62ac78bf3674508b8e8720067fc46cdd7f33bce621f0dfbc6e3c0d",
+      "bytes": 863
+    },
+    "scripts/evaluate_confidence.py": {
+      "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726",
+      "bytes": 12039
+    },
+    "scripts/joint_confidence.py": {
+      "sha256": "fccb8cf6ce64ed33539918224f9c1358a3eb593eadcfe9333481154ba9e46d98",
+      "bytes": 4312
+    },
+    "scripts/postprocess_recover.py": {
+      "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a",
+      "bytes": 7634
+    },
+    "scripts/public_embedding_cpu.py": {
+      "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7",
+      "bytes": 6838
+    },
+    "scripts/public_recovery.c": {
+      "sha256": "4060d0bc1438fc3fa028b9d30f427e31fa8f7b8cf4e749d3e7aeb2e2a6d648ef",
+      "bytes": 3352
+    },
+    "scripts/recover_agreement80.py": {
+      "sha256": "54f3b70c817634515b07a05c71e16dc40c089b26f0d806b71525e080060f2576",
+      "bytes": 8588
+    },
+    "scripts/recover_freeze80_dual.py": {
+      "sha256": "da521b96e00ec45817c1edfa520feed237bf1f75343d3b4cc0a5966504b205f8",
+      "bytes": 9288
+    },
+    "scripts/recover_vote3.py": {
+      "sha256": "efdcb6b8bc42e449f19b146686e7d4a94a281a0a27a9bb5da7aaecfec4860824",
+      "bytes": 5953
+    },
+    "scripts/sequential_oracle.py": {
+      "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18",
+      "bytes": 1929
+    },
+    "scripts/sparse_correction_lattice.py": {
+      "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55",
+      "bytes": 1971
+    },
+    "scripts/sprt_soft_decision.py": {
+      "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f",
+      "bytes": 1500
+    },
+    "scripts/verify_agreement80.py": {
+      "sha256": "57ed2755157becdfd9d1a979d431a0dbbc393ccdd16eb0057304a56dd73d807a",
+      "bytes": 7188
+    },
+    "scripts/verify_public_recovery.py": {
+      "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89",
+      "bytes": 4461
+    },
+    "scripts/vote3_merge.py": {
+      "sha256": "f66345a24a4546bc12abf8b67aa770fd6baf0b4aa718e7d85afcb332cad813af",
+      "bytes": 6118
+    }
+  }
+}

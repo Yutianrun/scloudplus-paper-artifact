@@ -1,0 +1,34 @@
+{
+  "source_repository": "https://github.com/Yutianrun/scloudplus-timing-sca",
+  "paper_commit": "76fc23d",
+  "abstract_claim": "Our attacks recover full Scloud+ secret keys at all three vulnerable parameter sets: 10/10 independent keys at L256 and L384, averaging 105.7 and 162.1 minutes, respectively, and one L512 key in 519.5 minutes.",
+  "levels": {
+    "256": {
+      "source_commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+      "source_directory": "source/l256",
+      "experiment": "experiments/sprt-256-ten-20261029",
+      "keys": 10,
+      "alpha": 0.001,
+      "online_minutes": 105.7,
+      "archive_directory": "archives/l256"
+    },
+    "384": {
+      "source_commit": "1a44a19078391c6e15495b4654fa505fa8136c2a",
+      "source_directory": "source/l384",
+      "experiment": "experiments/sprt-template-384-distinct10-20261102",
+      "keys": 10,
+      "alpha": 0.001,
+      "online_minutes": 162.1,
+      "archive_directory": "archives/l384"
+    },
+    "512": {
+      "source_commit": "429a5bdda661487081650355a7fa25be9b5abfa3",
+      "source_directory": "source/l512",
+      "experiment": "experiments/sprt-wide-alpha-0.01-20261030",
+      "keys": 1,
+      "alpha": 0.01,
+      "online_minutes": 519.5,
+      "archive_directory": "archives/l512"
+    }
+  }
+}

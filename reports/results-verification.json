@@ -1,0 +1,222 @@
+{
+  "scope": "Original paper-selected results; fresh verification does not rerun timing acquisition.",
+  "levels": {
+    "256": {
+      "keys": 10,
+      "successes": 10,
+      "mean_online_minutes": 105.74981420666667,
+      "rounded_online_minutes": 105.7,
+      "mean_timing_calls": 19695883.2,
+      "runs": [
+        {
+          "seed": 101,
+          "online_minutes": 104.28581366666667,
+          "timing_calls": 21362144,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 103,
+          "online_minutes": 110.31038683333333,
+          "timing_calls": 19381328,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 105,
+          "online_minutes": 97.49978526666668,
+          "timing_calls": 20136688,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 107,
+          "online_minutes": 109.4993126,
+          "timing_calls": 18722048,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 109,
+          "online_minutes": 104.47950601666666,
+          "timing_calls": 22441664,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 111,
+          "online_minutes": 101.4591249,
+          "timing_calls": 17764336,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 113,
+          "online_minutes": 113.27546538333333,
+          "timing_calls": 19542192,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 115,
+          "online_minutes": 75.4342331,
+          "timing_calls": 12043936,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 117,
+          "online_minutes": 136.57427776666665,
+          "timing_calls": 25177888,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 119,
+          "online_minutes": 104.68023653333333,
+          "timing_calls": 20386608,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        }
+      ]
+    },
+    "384": {
+      "keys": 10,
+      "successes": 10,
+      "mean_online_minutes": 162.06966214349026,
+      "rounded_online_minutes": 162.1,
+      "mean_timing_calls": 16914384,
+      "runs": [
+        {
+          "seed": 101,
+          "online_minutes": 167.5195388719362,
+          "timing_calls": 18056416,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 103,
+          "online_minutes": 151.51706645019974,
+          "timing_calls": 17672032,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 105,
+          "online_minutes": 145.01656623719416,
+          "timing_calls": 16636800,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 107,
+          "online_minutes": 155.5185182425659,
+          "timing_calls": 16444416,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 109,
+          "online_minutes": 147.01714085488734,
+          "timing_calls": 16251840,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 111,
+          "online_minutes": 214.0282636523402,
+          "timing_calls": 19383520,
+          "initial_errors": 5,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 113,
+          "online_minutes": 164.01972674669233,
+          "timing_calls": 17701600,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 115,
+          "online_minutes": 154.51975608388892,
+          "timing_calls": 14707840,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 117,
+          "online_minutes": 161.52009593838204,
+          "timing_calls": 15983456,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        },
+        {
+          "seed": 119,
+          "online_minutes": 160.01994835681592,
+          "timing_calls": 16305920,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        }
+      ]
+    },
+    "512": {
+      "keys": 1,
+      "successes": 1,
+      "mean_online_minutes": 519.5150491666667,
+      "rounded_online_minutes": 519.5,
+      "mean_timing_calls": 27827152,
+      "runs": [
+        {
+          "seed": 1,
+          "online_minutes": 519.5150491666667,
+          "timing_calls": 27827152,
+          "initial_errors": 0,
+          "final_errors": 0,
+          "original_kem_verified": true,
+          "fresh_kem_verified": true
+        }
+      ]
+    }
+  },
+  "historical_source_hash_checks": 88
+}

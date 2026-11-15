@@ -1,0 +1,23 @@
+[
+  {
+    "level": 256,
+    "parts_verified": 84,
+    "files_verified": 891,
+    "bytes_verified": 2973646040,
+    "all_sha256_match": true
+  },
+  {
+    "level": 384,
+    "parts_verified": 84,
+    "files_verified": 1141,
+    "bytes_verified": 2782363605,
+    "all_sha256_match": true
+  },
+  {
+    "level": 512,
+    "parts_verified": 17,
+    "files_verified": 142,
+    "bytes_verified": 442828478,
+    "all_sha256_match": true
+  }
+]

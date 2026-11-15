@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-10-29T20:11:06.825076+00:00",
+  "level": 256,
+  "recovered_secret_sha256": "97962a6d087b038708ca069d777f1ff7f8b2f8c00076f68599c51a02afe6e565",
+  "public_equations_passed": 13024,
+  "coefficients": 13024,
+  "fresh_kem_shared_secret_match": true,
+  "kem_random_source": "OS /dev/urandom",
+  "authenticated_message_decrypted": true,
+  "tampered_aead_rejected": true,
+  "corrupted_secret_rejected": true,
+  "rejection_secret_z_recovered": false,
+  "public_key_sha256": "0094cc5f58950cd28f5655c1fb1a3bebb53dbbacd6ec7d4c536dd3b3c43b5e20",
+  "nonce_hex": "d8b6cd570ef9519834cf8b3a",
+  "ciphertext_hex": "a1f9b2198778478d6cced4df0241fe16416ae296416e0ce9552be9041d8b4d6de95fc4f79d2b1e911ee7dc3a7672835ce7f77682b250476dfe36254f730ee27defc5fbd86c13e6249ab8bea4ffcbf65d57b9b6f97e",
+  "plaintext": "Fresh ciphertext decrypted using only recovered S and the public key."
+}

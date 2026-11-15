@@ -1,0 +1,530 @@
+[
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-01",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-02",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-03",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-04",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-05",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-06",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-07",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-08",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-09",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "experiments/sprt-256-ten-20261029/postprocess.py",
+    "sha256": "d4e85d9575595aab469316f1f1c68e0bb3f8c64d98f0a288833cb735711c2d3e"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 256,
+    "run": "group-10",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/sprt_soft_decision.py",
+    "sha256": "c197ba8242db5c31c400f16f17a5d5d2b11418e8dbf7c5ee1793587f11f75c7f"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/sequential_oracle.py",
+    "sha256": "d57333380b62754e4c359af6e40ed8dd30d6161d1591f1cb02685b611c9caf18"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "experiments/sprt-wide-alpha-0.01-20261030/postprocess.py",
+    "sha256": "1d19cf4037f4b400be8c5cdf377429a72b5c666b272d5985881690b102a88267"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/evaluate_confidence.py",
+    "sha256": "f57265bfe40f8a3a7bbc18ea7b7a140eec8fcd39ee35485ee16cc93f202c2726"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/public_embedding_cpu.py",
+    "sha256": "bfef1337b2f685273a6f2260b50f6e73714e9f497a9afc9b553194a43f2064f7"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/sparse_correction_lattice.py",
+    "sha256": "e8380fc1db167191eec388fc46068330eb4ebe1004645ddbe488c691ee15ce55"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/postprocess_recover.py",
+    "sha256": "1249bfa9110889f7e94400b3d0f8e076b9be0b038b57f1d4291c0e5216e8428a"
+  },
+  {
+    "level": 512,
+    "run": "512",
+    "source": "scripts/verify_public_recovery.py",
+    "sha256": "5f94a0cd40c31c6c799b6526493dd25e9d45f551dfd4b9c9b0fda2054d054a89"
+  }
+]

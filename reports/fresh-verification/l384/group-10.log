@@ -1,0 +1,18 @@
+ALL PUBLIC EQUATIONS PASS; FRESH KEM SHARED SECRETS MATCH (z not recovered)
+{
+  "verified_at_utc": "2026-11-15T04:04:13.049516+00:00",
+  "level": 384,
+  "recovered_secret_sha256": "ab291506caf5a7b80c3cbe69d09b654138d51cadf0811b5187eb8046216a6585",
+  "public_equations_passed": 26624,
+  "coefficients": 26624,
+  "fresh_kem_shared_secret_match": true,
+  "kem_random_source": "OS /dev/urandom",
+  "authenticated_message_decrypted": true,
+  "tampered_aead_rejected": true,
+  "corrupted_secret_rejected": true,
+  "rejection_secret_z_recovered": false,
+  "public_key_sha256": "f21ea92590ad5611987bace5502061a6c76867dee9b39ff2b7a50b2e9f97e810",
+  "nonce_hex": "d9eeef21f3b9cca710e0168f",
+  "ciphertext_hex": "998743e4215ae660a527a4d994d6854d08a95a5c94e0be064d5422a2b5a6034e6dafb13b932c3260172d3a4ba6064b05ada309bb140ef047c0e4f8a3a54e9edf8cea7ce09f5524fd9a7b2e521ec4b84ad0acf3e68a",
+  "plaintext": "Fresh ciphertext decrypted using only recovered S and the public key."
+}
